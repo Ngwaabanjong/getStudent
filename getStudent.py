@@ -6,7 +6,7 @@ def lambda_handler(event, context):
     dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 
     # Select the DynamoDB table named 'studentData'
-    table = dynamodb.Table('studentData')
+    table = dynamodb.Table('studenData')
 
     # Scan the table to retrieve all items
     response = table.scan()
