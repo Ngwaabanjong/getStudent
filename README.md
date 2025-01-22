@@ -14,7 +14,7 @@
 4. Certificate Manager (ACM)
 
 ## Step 1 - Create DynamoDB Table
-- Tablename = studentData
+- Tablename = studenData
 - Primary key = studentid (String)
 - Allow defualt settings and Create
 
