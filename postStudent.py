@@ -4,7 +4,7 @@ import boto3
 # Create a DynamoDB object using the AWS SDK
 dynamodb = boto3.resource('dynamodb')
 # Use the DynamoDB object to select our table
-table = dynamodb.Table('studentData')
+table = dynamodb.Table('studenData')
 
 # Define the handler function that the Lambda service will use as an entry point
 def lambda_handler(event, context):
